@@ -1,15 +1,11 @@
 import React from "react";
 
-
-
-const imagePath = `https://mervin-prog.github.io/Fashion_Template${props.img}`;
-
 function BestProduct(props){
 
     return (
         <div className="best-products-container" id="products">
         <div className="card">
-            <img className="best-product-image" src={imagePath} alt="product image" />
+            <img className="best-product-image" src={props.image} alt="product image" />
             <h2 className="product-title">{props.title}</h2>
             <p className="product-text">{props.description}</p>
             <div className="price-container">

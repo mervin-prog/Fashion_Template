@@ -34,11 +34,11 @@ const responsive = {
 function App(props){
 
   const products = bestSellers.map((item) => 
-    <Product title={item.title} image={item.image} price={item.price} description={item.description} discount={item.discount}/>
+    <Product key={item.id} title={item.title} image={item.image} price={item.price} description={item.description} discount={item.discount}/>
   )
 
   const bestProducts = best.map((item) => 
-    <BestProduct title={item.title} image={item.image} price={item.price} description={item.description} discount={item.discount}/>
+    <BestProduct key={item.id} title={item.title} image={item.image} price={item.price} description={item.description} discount={item.discount}/>
   )
   
   return (
