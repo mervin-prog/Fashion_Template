@@ -4,7 +4,7 @@ const best = [
     {
       id :1,
       title: "Leather Messenger Bag",
-      image: "/images/prod1.jpeg",
+      image: '/images/prod1.jpeg',
       description: "Carry your essentials in this elegant leather messenger bag.",
       price: 89.99,
       discount: 10,
